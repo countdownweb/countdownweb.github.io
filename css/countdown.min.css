@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Big John Normal';
+    src: url('../fonts/Big John.otf');
+    } 
+@font-face {
+    font-family: 'Slim Joe Normal'; 
+    src: url('../fonts/SLim Joe.otf');
+    } 
+
+body{ 
+    font-family: 'asgalt'; word-wrap:break-word;
+
+    background-image: url(../yisae.jpg);
+    background-position: no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+h1{
+   font: normal 80px 'Tiza';
+   text-align: center;
+   color: white;
+   position: relative;
+   top: -430px; bottom: 0px; left: 0px; right: 0;
+
+}
+h2{
+    font: normal 25px 'Slim Joe Normal';
+    text-align: center;
+    color: white;
+    position: relative;
+top: -500px; bottom: 50px; left: 10px; right: 0;
+}
+i{
+
+     -webkit-transition:all .5s ease; /* Safari y Chrome */
+-moz-transition:all .5s ease; /* Firefox */
+-o-transition:all .5s ease; /* IE 9 */
+-ms-transition:all .5s ease; /* Opera */
+width:50%;
+color: grey;
+}
+i:hover{
+   -webkit-transform:scale(.95);
+-moz-transform:scale(.95);
+-ms-transform:scale(.95);
+-o-transform:scale(.95);
+transform:scale(.95);
+color: white;
+
+}
+
+
+.redes{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px rgba(101, 41, 102, 0.6);
+    align-items:  center;
+    padding: 40px 35px;
+    position: absolute;
+  top: 350px; bottom: 50px; left: 400px; right: 0;
+}
+
+
+#countdown{
+    width: 465px;
+    height: 112px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px rgba(101, 41, 102, 0.6);
+    align-items:  center;
+    padding: 40px 35px;
+    position: absolute;
+  top: 350px; bottom: 50px; left: 400px; right: 0;
+}
+
+#countdown #tiles{
+    position: relative;
+    z-index: -1;
+}
+
+#countdown #tiles > span{
+    width: 92px;
+    max-width: 92px;
+    font: normal 45px 'asgalt';
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    
+    
+    border: 4px solid;
+    border-radius: 50px;
+    box-shadow: 0px 0px 12px rgba(254, 131, 255, 0.7);
+    margin: 0 7px;
+    padding: 18px 0;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+#countdown .labels{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+}
+
+#countdown .labels li{
+    width: 102px;
+    font: bold 40px 'asgalt';
+    color: white;
+    text-shadow: 2px 3px 0px #000;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    top: 250px; bottom: 50px; left: 400px; right: 0;
+}
